@@ -164,7 +164,7 @@ body {
 }
 
 .main-wrap {
-    padding: 26px 0 0;
+    padding: 110px 0 0;
 }
 .main-wrap .intro {
     margin-bottom: 312px;
@@ -249,6 +249,7 @@ body {
     object-fit: cover;
 }
 
+/* 768 ~ 1279px */
 @media (min-width: 768px) and (max-width: 1279px) {
     #header {
         padding: 20px 30px;
@@ -273,8 +274,6 @@ body {
     #footer .logo .title {
         width: 400px;
     }
-    #footer .info .address {
-    }
     #footer .info .address dt {
         line-height: 30px;
         font-size: 20px;
@@ -288,10 +287,7 @@ body {
         font-size: 16px;
     }
 
-    #container .visual {
-        height: 100dvh;
-        max-height: 624px;
-    }
+    /* 🔥 여기서는 visual 높이 건들지 말고, 텍스트 위치만 조정 */
     #container .visual .text {
         right: 30px;
         bottom: 60px;
@@ -304,8 +300,6 @@ body {
         margin-top: 25px;
         line-height: 1.5;
         font-size: 16px;
-        font-weight: 400;
-        color: #5c6266;
     }
 
     .main-wrap .intro {
@@ -316,18 +310,9 @@ body {
         padding: 0 30px;
     }
     .main-wrap .keyword .word {
-        padding: 0 0 20px 0;
         gap: 140px;
     }
-    .main-wrap .keyword .word p {
-        font-size: 24px;
-    }
-    .main-wrap .keyword .site {
-    }
-    .main-wrap .background {
-        height: 100dvh;
-        max-height: 1023px;
-    }
+
     .main-wrap .background .text {
         left: 30px;
         right: 30px;
@@ -343,6 +328,8 @@ body {
         font-size: 20px;
     }
 }
+
+/* 0 ~ 767px */
 @media (max-width: 767px) {
     #header {
         padding: 20px 20px;
@@ -377,8 +364,6 @@ body {
     #footer .logo .title {
         width: 100%;
     }
-    #footer .info .address {
-    }
     #footer .info .address dt {
         line-height: 1.5;
         font-size: 16px;
@@ -392,17 +377,8 @@ body {
         font-size: 14px;
     }
 
-    #container {
-        padding: 114px 0 0 0;
-    }
-    #container .visual {
-        height: 100dvh;
-        max-height: 624px;
-    }
-    #container .visual {
-        height: 100dvh;
-        max-height: 400px;
-    }
+    /* 🔥 여기서도 container 패딩/visual 높이 건들지 말기 */
+    /* #container { padding: 114px 0 0 0; } ← 이거 지운 상태 */
 
     #container .visual .text {
         left: 20px;
@@ -432,7 +408,6 @@ body {
         padding: 0 30px;
     }
     .main-wrap .keyword .word {
-        padding: 0 0 20px 0;
         gap: 20px;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -444,10 +419,7 @@ body {
     .main-wrap .keyword .site {
         margin: 20px 0 30px;
     }
-    .main-wrap .background {
-        height: 100dvh;
-        max-height: 600px;
-    }
+
     .main-wrap .background .text {
         left: 20px;
         right: 20px;
