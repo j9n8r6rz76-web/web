@@ -61,7 +61,7 @@
 #container .visual {
     position: relative;
     width: 100%;
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 60px);
 }
 #container .visual .image {
     width: 100%;
