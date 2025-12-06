@@ -3,7 +3,7 @@
 .inner-wrap {
 }
 .inner-wrap .section {
-    padding: 300px 0 120px 360px;
+    padding: 100px 0 120px 360px;
     display: flex;
     flex-direction: column;
     gap: 20px;
