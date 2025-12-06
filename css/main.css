@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px; /* 🔥 헤더 높이 확정 */
+    height: 90px;
     padding: 0 60px;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@
 }
 #header .gnb ul {
     display: flex;
-    gap: 33px;
+    gap: 30px;
 }
 #header .gnb li {
 }
@@ -50,18 +50,18 @@
     color: #b2e2a4;
 }
 #header .gnb li.on a {
-    text-decoration: underline;
+    color: #b2e2a4;
 }
 
 #container {
     padding: 100px 0 0 0;
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 #container .visual {
     position: relative;
     width: 100%;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 80px);
 }
 #container .visual .image {
     width: 100%;
