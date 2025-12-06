@@ -53,7 +53,7 @@
 }
 
 #container {
-    padding: 95px 0 0 0;
+    padding: 125px 0 0 0;
 }
 #container .visual {
     position: relative;
@@ -90,6 +90,12 @@
     font-size: 18px;
     font-weight: 400;
     color: #5c6266;
+}
+.image.timeline img {
+    width: 100%;
+    max-height: 600px; /* ← 높이 여기서 조절 */
+    object-fit: cover; /* ← 꽉 차게 */
+    display: block;
 }
 
 #footer {
