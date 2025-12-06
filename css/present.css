@@ -5,7 +5,7 @@
 .present-wrap .section {
     display: flex;
     flex-direction: column;
-    padding: 160px 60px 70px;
+    padding: 100px 60px 70px;
 }
 .present-wrap .section .text {
     padding: 38px 0 0;
